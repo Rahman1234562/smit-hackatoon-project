@@ -17,11 +17,18 @@ export default function Navbar() {
   const Router = useRouter();
 
  const NavLink = ({children,href}) => (
+  <>
+  
+  <Box>
+    WELLCOM TO MY BLOGS
+  </Box>
   <Link px={5} py={2.5} rounded={'xl'} fontWeight={'bold'} fontSize={'18px'} color= {'#05a0e8'}
  _hover={{textDecoration: 'none', bg: '#05a0e8', color: 'white'}}
     href={href}>
     {children}
   </Link>
+  </>
+
 );
 
 

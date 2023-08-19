@@ -56,8 +56,8 @@ const Blogs = () => {
         </Tooltip>
       </Flex>
       <Box width={"80%"} m={"auto"} mt={'50px'}>
-        {
-          blogs.allblogs?.map((el, index) => (
+        
+          
 
             <Card
               direction={{ base: 'column', sm: 'row' }}
@@ -79,9 +79,6 @@ const Blogs = () => {
                 </CardBody>
               </Stack>
             </Card>
-
-          ))
-        }
       </Box>
     </>
   );

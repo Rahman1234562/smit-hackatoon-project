@@ -6,7 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 export const HomePage = () => {
   return (
     <>
-      <Image src="/home1.jpg" alt="img-1" width={"100%"} height={"600px"} />
+      <Image src="/home2.avif" alt="img-1" width={"100%"} height={"600px"} />
       <VerticalTimeline>
         <VerticalTimelineElement>
           <Image
